@@ -22,7 +22,7 @@ Below are the commands/requests that users can send to the server:
 
 **Notes:** 
 1. Once the server user is logged out from web WhatsApp, the server will be down and will not respond to any requests from users.
-2. All data (e.g. todo lists of all users) are stored in server's browser *localStorage*. So, if a server user logs in from different machine, the data will be lost and the server will start from scratch.
+2. All data (e.g. todo lists of all users) are stored in server's browser *localStorage*. So, if the user, who acts as a server, logged in from different machine, the data will be lost and the server will start from scratch.
 3. **WhatsApp Inc.** might not allow this type of actvities in their platform, Thus, any usage of thi script will be under your personal liability and I'll not have any liabilites of any damages that might occur to eith WhatsApp, as a company, or yourself.
 
 
