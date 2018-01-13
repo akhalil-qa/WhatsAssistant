@@ -26,6 +26,6 @@ Below are the commands/requests that users can send to the server:
 3. **WhatsApp Inc.** might not allow this type of actvities in their platform, Thus, any usage of thi script will be under your personal liability and I'll not have any liabilites of any damages that might occur to eith WhatsApp, as a company, or yourself.
 
 
-## Screenshots
-Check the below demonstration video.
+## Demonstration Video
+Check out the demonstration video: [Demo Video](https://streamable.com/71gef).
 
