@@ -15,7 +15,7 @@ Below are the commands/requests that users can send to the server:
 - **show list**: show the checked and unchecked list of items in todo list.
 
 ## Server Installation
-1. Open [https://web.whatsapp.com](web version of WhatsApp) in **Chrome** browser.
+1. Open [web version of WhatsApp](https://web.whatsapp.com) in **Chrome** browser.
 2. From Chrome's toolbar, go to **View** > **Developer** > **JavaScript Console**.
 3. Copy and paste the content of **WhatsAssistant.js** file into **Console**.
 4. The logged in user will be acting as a server from now to serve other users' requests.
