@@ -3,8 +3,7 @@ var commands = ["add", "remove", "check", "uncheck", "show"];
 
 /* get all chats */
 function getAllChats() {
-  var chatsFromLeftPanel = getReactComponent(document.getElementsByClassName('chatlist-panel-body')[0]);
-  return chatsFromLeftPanel.props.chats;
+  return Store.Chat.models;
 }
 
 /* get chat by supplying an index */
@@ -143,15 +142,6 @@ function sendMessage(chat, text) {
   chat.sendMessage(text);
 }
 
-/* get React component */
-function getReactComponent(dom) {
-    for (var key in dom)
-      if (key.startsWith("__reactInternalInstance$"))
-        return dom[key].child.stateNode;
-
-    return null;
-};
-
 /* loop over all chats and read its messages to reply to client requests, every 1 second */
 setInterval(function(){
   var chats = getAllChats();
@@ -161,9 +151,8 @@ setInterval(function(){
       var msg = msgs[j];
 
       /* if server encounters a message (response) sent by him */
-      // [AHMED: remove comment]
-      //if (msg.isSentByMe)
-        //break; // go to check the next message
+      if (msg.isSentByMe)
+        break; // go to check the next message
 
       /* read a command and its body, if any */
       var command, commandBody;
