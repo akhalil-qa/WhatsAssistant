@@ -5,7 +5,7 @@ This is a demonstration of how to automate a WhatsApp account to act as a person
 This project is a proof-of-concept (PoC) only to discover the possibilites of automating an instant messaging platform to do extra and useful stuff in addition to the usual human-to-human chatting. 
 
 ## How Does It Work?
-One WhatsApp user is logging in using the web version of WhatsApp [https://web.whatsapp.com](https://web.whatsapp.com). Using **WhatsAssistant.js** script, the user will be acting as a server to other users (e.g. the clients). The server will help clients to maintain their todo list and query it at anytime via normal WhatsApp chatting!
+One WhatsApp user is logging in using the [web version of WhatsApp](https://web.whatsapp.com). Using **WhatsAssistant.js** script, the user will be acting as a server to other users (e.g. the clients). The server will help clients to maintain their todo list and query it at anytime via normal WhatsApp chatting!
 
 Below are the commands/requests that users can send to the server:
 - **add** *\<item_text\>*: add an item to the todo list.
