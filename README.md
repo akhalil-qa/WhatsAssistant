@@ -25,7 +25,9 @@ Below are the commands/requests that users can send to the server:
 2. All data (e.g. todo lists of all users) are stored in server's browser *localStorage*. So, if the user, who acts as a server, logged in from different machine, the data will be lost and the server will start from scratch.
 3. **WhatsApp Inc.** might not allow this type of actvities in their platform, Thus, any usage of thi script will be under your personal liability and I'll not have any liabilites of any damages that might occur to eith WhatsApp, as a company, or yourself.
 
-
 ## Demonstration Video
 Check out the demonstration video: [Demo Video](https://streamable.com/71gef).
+
+## Contact
+Feel free to contact me on Twitter: **[@AKhalil_90](https://twitter.com/AKhalil_90)**
 
