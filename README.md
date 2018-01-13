@@ -1,4 +1,4 @@
-# WhatsAssistant - An WhatsApp bot to manage your todo list
+# WhatsAssistant - A WhatsApp bot to manage your todo list
 This is a demonstration of how to automate a WhatsApp account to act as a personal assistant to other WhatsApp users in order to maintain their todo lists!
 
 ## Purspose
