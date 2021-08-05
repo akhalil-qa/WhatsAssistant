@@ -29,5 +29,5 @@ Below are the commands/requests that users can send to the server:
 Check out the demonstration video: [Demo Video](https://streamable.com/71gef).
 
 ## Contact
-Feel free to contact me on Twitter: **[@AKhalil_90](https://twitter.com/AKhalil_90)**
+Feel free to contact me on Twitter: **[@akhalil_qa](https://twitter.com/akalil_qa)**
 
